@@ -1144,6 +1144,7 @@ class FitActivity extends AbstractSingleParser
                 $v = $this->Container->Metadata->getNotes() . "\n" . $v;
             }
             $this->Container->Metadata->setNotes($v);
+            $this->Container->Metadata->setWorkoutName($n);
         }
     }
 
